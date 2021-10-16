@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Throttle</title>
+    <style>
+        #input{
+            width: 200px;
+        }
+        #key{
+            width: 200px;
+        }
+        #search-box{
+            display: flex;
+            flex-direction: column;
+        }
+        #results{
+            display: flex;
+            flex-direction: column;
+        }
+        .dataHolder{
+            border: 1px solid black;
+        }
+        #submit-btn{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="search-box">
+        API KEY : <input id="key" type="text">
+        <input type="button" id="submit-btn" value="Submit Key">
+        Movie Name: <input id="input" type="text">
+        <div id="results">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
