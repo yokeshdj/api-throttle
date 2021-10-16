@@ -6,7 +6,6 @@ var keySubmit = document.getElementById("submit-btn");
 keySubmit.addEventListener("click",function(){
     var key = document.getElementById("key").value;
 })
-// 18122219
 var resultHolder = document.getElementById("results");
 function handleSearch(){
     fetchData(input.value)
